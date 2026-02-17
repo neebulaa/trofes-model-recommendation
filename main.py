@@ -3,20 +3,22 @@ from nbconvert.preprocessors import ExecutePreprocessor
 import os
 
 def run_notebook(notebook_path):
+    # Ambil lokasi folder root project secara absolut
     project_root = os.path.abspath(os.path.dirname(__file__))
     print(f"--- Working Directory: {project_root} ---")
     
-    data_path = os.path.join(project_root, 'data', 'processed')
-    if os.path.exists(data_path):
-        print(f"Isi folder data/processed: {os.listdir(data_path)}")
-    else:
-        print("PERINGATAN: Folder data/processed tidak ditemukan!")
+    # KUNCIAN: Pastikan folder 'models' ada sebelum running
+    models_dir = os.path.join(project_root, 'models')
+    if not os.path.exists(models_dir):
+        os.makedirs(models_dir)
+        print("Folder 'models' berhasil dibuat secara otomatis!")
 
     print(f"Executing {notebook_path}...")
     
     with open(notebook_path) as f:
         nb = nbformat.read(f, as_version=4)
     
+    # Set path ke project_root agar notebook menganggap dirinya berjalan di folder utama
     ep = ExecutePreprocessor(timeout=600, kernel_name='python3')
     
     try:
