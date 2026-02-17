@@ -1,7 +1,0 @@
-data/raw/*
-data/processed/*
-data/output/*
-
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/output/.gitkeep
