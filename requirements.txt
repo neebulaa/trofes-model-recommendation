@@ -1,10 +1,22 @@
+# Dasar & Manipulasi Data
 pandas
 numpy
+scipy
+
+# Visualisasi
 matplotlib
 seaborn
+
+# Machine Learning
 scikit-learn
-huggingface_hub
+umap-learn
+sentence-transformers
+joblib
+
+# Eksekusi Notebook via GitHub Actions
 nbformat
 nbconvert
 ipykernel
-joblib
+
+# Integrasi Hugging Face
+huggingface_hub
