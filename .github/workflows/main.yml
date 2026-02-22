@@ -66,19 +66,22 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          python -c "
+          cat << 'EOF' > restart_space.py
           from huggingface_hub import HfApi
           import os
           
           api = HfApi()
-          space_id = 'ArNight/trofes-api'
+          space_id = "ArNight/trofes-api"
+          token = os.getenv("HF_TOKEN")
           
-          print(f'Mencoba me-restart Space: {space_id}...')
+          print(f"Mencoba me-restart Space: {space_id}...")
           
-          # factory_reboot=True WAJIB agar cache hf_hub_download terhapus 
-          # dan model .pkl versi terbaru didownload ulang!
-          api.restart_space(
-              repo_id=space_id, 
-              token=os.getenv('HF_TOKEN'), 
-              factory_reboot=True
-          )
+          try:
+              api.restart_space(repo_id=space_id, token=token, factory_reboot=True)
+              print("Space berhasil di-restart")
+          except Exception as e:
+              print(f"Gagal me-restart space: {e}")
+              exit(1)
+          EOF
+          
+          python restart_space.py
