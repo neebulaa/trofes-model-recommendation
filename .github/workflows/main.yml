@@ -62,6 +62,23 @@ jobs:
           "
       
       # 6. Deploy ke Hugging Face Space
-      - name: Reload Space
+      - name: Restart HF Space (Factory Reboot)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          curl -X POST https://huggingface.co/api/spaces/ArNight/trofes-api/restart -H "Authorization: Bearer ${{ secrets.HF_TOKEN }}"
+          python -c "
+          from huggingface_hub import HfApi
+          import os
+          
+          api = HfApi()
+          space_id = 'ArNight/trofes-api'
+          
+          print(f'Mencoba me-restart Space: {space_id}...')
+          
+          # factory_reboot=True WAJIB agar cache hf_hub_download terhapus 
+          # dan model .pkl versi terbaru didownload ulang!
+          api.restart_space(
+              repo_id=space_id, 
+              token=os.getenv('HF_TOKEN'), 
+              factory_reboot=True
+          )
