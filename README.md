@@ -124,9 +124,8 @@ This project is deployed on **Hugging Face Spaces** and uses a GitHub Actions CI
 
 | Method | Endpoint | Model Used | Description |
 |--------|----------|------------|-------------|
-| `POST` | `/recommend/preference` | Model A (K-Means) | Get recipes based on user preferences & ingredients |
-| `POST` | `/recommend/nutrients` | Model B (Agglomerative) | Get recipes based on target macronutrients |
-| `GET` | `/health` | — | Health check endpoint |
+| `POST` | `/recommend` | Model A (K-Means) | Get recipes based on user preferences & ingredients |
+| `POST` | `/recommendCalculator` | Model B (Agglomerative) | Get recipes based on target macronutrients |
 
 > Full request/response schema is available on the Swagger UI at `/docs`.
 
