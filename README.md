@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/assets/logo/logo-transparent.png" alt="Trofes logo" width="160" />
+  <img src="./logo-transparent.png" alt="Trofes logo" width="160" />
 </p>
 
 <h1 align="center">🥗 Trofes: Machine Learning Recommendation API</h1>
