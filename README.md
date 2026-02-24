@@ -2,7 +2,7 @@
   <img src="./logo-transparent.png" alt="Trofes logo" width="160" />
 </p>
 
-<h1 align="center">🥗 Trofes: Machine Learning Recommendation API</h1>
+<h1 align="center">Trofes: Machine Learning Recommendation API</h1>
 
 <p align="center">
   <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
