@@ -4,7 +4,9 @@
 
 <h1 align="center">🥗 Trofes: Machine Learning Recommendation API</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/) [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)](https://fastapi.tiangolo.com/) [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.3-orange)](https://scikit-learn.org/) [![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458)](https://pandas.pydata.org/) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Deployment-FFD21E)](https://huggingface.co/)
+|  |
+| - |
+| [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/) [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)](https://fastapi.tiangolo.com/) [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.3-orange)](https://scikit-learn.org/) [![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458)](https://pandas.pydata.org/) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Deployment-FFD21E)](https://huggingface.co/) |
 
 <p align='center'>Trofes intelligent backend ecosystem serving Machine Learning models for recipe recommendations and precise nutritional calculations. This project implements two distinct clustering approaches to handle user preferences and absolute macronutrient targets.</p>
 
