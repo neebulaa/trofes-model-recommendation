@@ -1,14 +1,3 @@
-# 🥗 TROFES: Machine Learning Recommendation API
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.3-orange)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-Deployment-FFD21E)
-![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF)
-
-An intelligent backend ecosystem serving Machine Learning models for recipe recommendations and precise nutritional calculations. This project implements two distinct clustering approaches to handle user preferences and absolute macronutrient targets.
 <p align="center">
   <img src="./logo-transparent.png" alt="Trofes logo" width="160" />
 </p>
@@ -17,7 +6,7 @@ An intelligent backend ecosystem serving Machine Learning models for recipe reco
 
 <p align="center">
   <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
-    <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue" />
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue" />
   </a>
   <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">
     <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0.100%2B-009688" />
@@ -30,6 +19,9 @@ An intelligent backend ecosystem serving Machine Learning models for recipe reco
   </a>
   <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">
     <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-Deployment-FFD21E" />
+  </a>
+  <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
+    <img alt="Docker" src="https://img.shields.io/badge/Docker-Containerized-2496ED" />
   </a>
 </p>
 
