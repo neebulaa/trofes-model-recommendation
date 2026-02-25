@@ -9,6 +9,31 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF)
 
 An intelligent backend ecosystem serving Machine Learning models for recipe recommendations and precise nutritional calculations. This project implements two distinct clustering approaches to handle user preferences and absolute macronutrient targets.
+<p align="center">
+  <img src="./logo-transparent.png" alt="Trofes logo" width="160" />
+</p>
+
+<h1 align="center">Trofes: Machine Learning Recommendation API</h1>
+
+<p align="center">
+  <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue" />
+  </a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">
+    <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0.100%2B-009688" />
+  </a>
+  <a href="https://scikit-learn.org/" target="_blank" rel="noopener noreferrer">
+    <img alt="Scikit-Learn" src="https://img.shields.io/badge/scikit--learn-1.3-orange" />
+  </a>
+  <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">
+    <img alt="Pandas" src="https://img.shields.io/badge/Pandas-Data_Processing-150458" />
+  </a>
+  <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-Deployment-FFD21E" />
+  </a>
+</p>
+
+<p align='center'>Trofes intelligent backend ecosystem serving Machine Learning models for recipe recommendations and precise nutritional calculations. This project implements two distinct clustering approaches to handle user preferences and absolute macronutrient targets.</p>
 
 ---
 
@@ -227,7 +252,3 @@ API available at **`http://localhost:7860`**
 5. Open a Pull Request
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
